@@ -4,6 +4,9 @@ import ConfirmModal from './components/base/ConfirmDialog.vue'
 import { useLoadingStore } from './stores/loading'
 import { showToast } from './utils/toast'
 import { useConfirmDialog } from './stores/modal'
+import Header from './components/layout/Header.vue'
+import Footer from './components/layout/Footer.vue'
+import Home from './components/layout/Home.vue'
 const route = useRoute()
 
 const layout = computed(() => {
@@ -31,11 +34,15 @@ const openConfirm = async () => {
 </script>
 
 <template>
-  <ConfirmModal />
+  <Header />
+
+  <Home />
+  <Footer />
+  <!-- <ConfirmModal /> -->
 
   <!-- <button @click="openConfirm">Open Modal</button> -->
-  <Toaster />
-  <div
+  <!-- <Toaster /> -->
+  <!-- <div
     v-if="loadingStore.getLoading"
     class="fixed top-0 left-0 w-full h-full flex justify-center items-center z-[999] bg-[#4c4c4c61]"
   >
@@ -46,7 +53,7 @@ const openConfirm = async () => {
   </div>
   <component :is="layout">
     <RouterView />
-  </component>
+  </component> -->
 </template>
 
 <style scoped>
