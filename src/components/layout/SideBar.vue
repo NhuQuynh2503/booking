@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import SidebarMenu from '@/components/layout/sideBar/SidebarMenu.vue'
 import Button from '../ui/button/Button.vue'
 </script>
@@ -21,4 +21,14 @@ import Button from '../ui/button/Button.vue'
   background-color: #f7f7f7;
   color: #344054;
 }
+</style> -->
+
+<script setup>
+</script>
+
+<template>
+
+</template>
+
+<style scoped>
 </style>

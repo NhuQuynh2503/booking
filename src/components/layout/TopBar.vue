@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 </script>
 <template>
   <div
@@ -11,9 +11,9 @@
         <span
           class="inline-block absolute top-0 left-0 z-10 w-full h-full bg-slate-200 rounded-md"
         ></span>
-      </span>
+      </span> -->
       <!-- <TopBarMembers /> -->
-    </div>
+    <!-- </div>
     <div>
       <Button
         class="text-xs"
@@ -23,7 +23,7 @@
         <Icon icon="hugeicons:login-03" />
         <p>Logout</p>
       </Button>
-    </div>
+    </div> -->
     <!-- <IconField>
             <InputIcon class="pi pi-search" />
             <InputText
@@ -32,6 +32,15 @@
             />
         </IconField> -->
     <!-- <TopBarUserOption /> -->
-  </div>
+  <!-- </div>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped></style> -->
+<script setup>
+</script>
+
+<template>
+
+</template>
+
+<style scoped>
+</style>

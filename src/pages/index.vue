@@ -1,10 +1,10 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import Button from '@/components/ui/button/Button.vue'
 </script>
 <template>
-  <div class="p-8">
+  <div class="p-8"> -->
     <!-- header -->
-    <div class="flex justify-between items-center">
+    <!-- <div class="flex justify-between items-center">
       <div>
         <div class="text-2xl font-medium">Hello, Trinh Huy Nam 👋</div>
         <div>Here's what's going on today.</div>
@@ -29,4 +29,5 @@ import Button from '@/components/ui/button/Button.vue'
       </div>
     </div>
   </div>
-</template>
+</template> -->
+<template></template>

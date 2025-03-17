@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="flex justify-between items-center border-b py-3 px-5">
     <div class="flex items-center gap-2">
       <span class="i-solar-quiz-bold-duotone text-xl"></span>
@@ -21,4 +21,13 @@
       </button>
     </div>
   </div>
+</template> -->
+<script setup>
+</script>
+
+<template>
+
 </template>
+
+<style scoped>
+</style>

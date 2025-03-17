@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 const menus = ref([
   {
     title: 'PERSONAL',
@@ -71,4 +71,13 @@ const menus = ref([
   background-color: #eff7ff;
   color: #0061ff;
 }
+</style> -->
+<script setup>
+</script>
+
+<template>
+
+</template>
+
+<style scoped>
 </style>
